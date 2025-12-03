@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - V5 Medical LTD</title>
+    <meta name="description" content="Contact V5 Medical LTD for inquiries about medical and dental consumables. Get in touch with our sales team via WhatsApp, email or our contact form.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="font-sans text-gray-800">
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/4407895047944" target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-110 animate-pulse-slow">
+        <i class="fab fa-whatsapp text-4xl"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-40">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Header中的logo部分 -->
+<div class="flex items-center">
+    <a href="index.html" class="flex items-center">
+        <img src="assets/images/logo.png" alt="V5 Medical LTD - Global Medical Consumables Supplier" class="h-10 max-w-full">
+    </a>
+</div>
+
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8">
+                    <li><a href="index.html" class="text-gray-700 hover:text-primary-700 transition">Home</a></li>
+                    <li><a href="catalog.html" class="text-gray-700 hover:text-primary-700 transition">Catalog</a></li>
+                    <li><a href="about.html" class="text-gray-700 hover:text-primary-700 transition">About Us</a></li>
+                    <li><a href="contact.html" class="text-primary-600 font-semibold hover:text-primary-800 transition">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-gray-700">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg py-4">
+            <ul class="flex flex-col space-y-4 px-4">
+                <li><a href="index.html" class="text-gray-700 block py-2">Home</a></li>
+                <li><a href="catalog.html" class="text-gray-700 block py-2">Catalog</a></li>
+                <li><a href="about.html" class="text-gray-700 block py-2">About Us</a></li>
+                <li><a href="contact.html" class="text-primary-600 font-semibold block py-2">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+            <p class="text-xl opacity-90 max-w-3xl mx-auto">Get in touch with our sales team for product inquiries, pricing information, and partnership opportunities</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Contact Information</h2>
+                <div class="w-20 h-1 bg-primary-500 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Reach out to our team through multiple channels for prompt assistance with your medical and dental consumables needs.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- WhatsApp Contact -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                    <div class="p-8 text-center">
+                        <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i class="fab fa-whatsapp text-green-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">WhatsApp</h3>
+                        <p class="text-gray-600 mb-4">Get instant response from our sales team</p>
+                        <div class="space-y-3">
+                            <div class="flex justify-center">
+                                <a href="https://wa.me/4407895047944" target="_blank" class="inline-flex items-center bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-6 rounded-full transition transform hover:scale-105">
+                                    <i class="fab fa-whatsapp mr-2"></i> Chat Now
+                                </a>
+                            </div>
+                            <p class="font-mono text-gray-800 text-lg">+44 078 9504 7944</p>
+                            <p class="text-sm text-gray-500">Available 24/7 for urgent inquiries</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Email Contact -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                    <div class="p-8 text-center">
+                        <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-envelope text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Email</h3>
+                        <p class="text-gray-600 mb-4">Send us your detailed inquiries and requirements</p>
+                        <div class="space-y-3">
+                            <div class="flex justify-center">
+                                <a href="mailto:sales@v5md.com" class="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-6 rounded-full transition transform hover:scale-105">
+                                    <i class="fas fa-envelope mr-2"></i> Email Us
+                                </a>
+                            </div>
+                            <div class="text-left">
+                                <p class="font-medium text-gray-800">Sales Department:</p>
+                                <p class="text-blue-600 hover:text-blue-800 transition"><a href="mailto:sales@v5md.com">sales@v5md.com</a></p>
+                                <p class="font-medium text-gray-800 mt-2">General Inquiries:</p>
+                                <p class="text-blue-600 hover:text-blue-800 transition"><a href="mailto:info@v5md.com">info@v5md.com</a></p>
+                                <p class="font-medium text-gray-800 mt-2">Orders:</p>
+                                <p class="text-blue-600 hover:text-blue-800 transition"><a href="mailto:order@v5md.com">order@v5md.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Office Contact -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                    <div class="p-8 text-center">
+                        <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-building text-yellow-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Office</h3>
+                        <p class="text-gray-600 mb-4">Visit our headquarters or contact us by phone</p>
+                        <div class="space-y-3">
+                            <div class="bg-gray-100 p-4 rounded-lg">
+                                <p class="font-medium text-gray-800 mb-2">Headquarters Address:</p>
+                                <p class="text-gray-700">No. 168, Luying Road<br>Kunshan Development Zone<br>Jiangsu, China</p>
+                            </div>
+                            <div class="bg-gray-100 p-4 rounded-lg">
+                                <p class="font-medium text-gray-800 mb-2">Office Phone:</p>
+                                <p class="text-gray-700">+86-0512 8781 1988</p>
+                            </div>
+                            <p class="text-sm text-gray-500">Office Hours: Monday-Friday, 9:00 AM - 6:00 PM GMT+8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Send Us a Message</h2>
+                <div class="w-20 h-1 bg-primary-500 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Fill out the form below and our team will respond within 24 business hours</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto bg-gray-50 rounded-2xl shadow-lg p-6 md:p-8">
+                <form id="contact-form" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-2">Full Name</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="company" class="block text-gray-700 mb-2">Company Name</label>
+                            <input type="text" id="company" name="company" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 mb-2">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label for="country" class="block text-gray-700 mb-2">Country/Region</label>
+                        <select id="country" name="country" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                            <option value="">Select your country</option>
+                            <option value="United States">United States</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Germany">Germany</option>
+                            <option value="France">France</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Spain">Spain</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Japan">Japan</option>
+                            <option value="China">China</option>
+                            <option value="India">India</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Other">Other (please specify)</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="inquiry-type" class="block text-gray-700 mb-2">Type of Inquiry</label>
+                        <select id="inquiry-type" name="inquiry-type" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                            <option value="">Select inquiry type</option>
+                            <option value="product-information">Product Information</option>
+                            <option value="pricing">Pricing & Quotation</option>
+                            <option value="bulk-order">Bulk Order Inquiry</option>
+                            <option value="distribution">Distribution Partnership</option>
+                            <option value="custom-products">Custom Product Development</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-gray-700 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"></textarea>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <input type="checkbox" id="consent" name="consent" required class="mt-1 mr-2 rounded text-primary-600 focus:ring-primary-500">
+                        <label for="consent" class="text-gray-700">I consent to V5 Medical LTD processing my personal data for the purpose of responding to my inquiry. I understand that my information will be handled in accordance with the privacy policy.</label>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="w-full bg-primary-600 hover:bg-primary-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2">
+                            <span class="flex items-center justify-center">
+                                <i class="fas fa-paper-plane mr-2"></i> Send Inquiry
+                            </span>
+                        </button>
+                    </div>
+                </form>
+                
+                <div id="form-success" class="hidden mt-6 p-4 bg-green-50 text-green-700 rounded-lg">
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-2xl mr-3"></i>
+                        <p>Thank you for your inquiry! We have received your message and will respond within 24 business hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-16 bg-gradient-to-r from-primary-600 to-primary-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Inquiry Process</h2>
+                <div class="w-20 h-1 bg-blue-300 mx-auto mb-6"></div>
+                <p class="text-blue-100 max-w-2xl mx-auto text-lg">
+                    We make it simple to get the information and support you need for your medical supply requirements.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                <div class="text-center p-6">
+                    <div class="bg-white bg-opacity-10 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-xl font-bold">1</div>
+                    <h3 class="text-xl font-bold mb-2">Submit Inquiry</h3>
+                    <p class="opacity-90">Send us your requirements through our contact form or WhatsApp</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="bg-white bg-opacity-10 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-xl font-bold">2</div>
+                    <h3 class="text-xl font-bold mb-2">Product Consultation</h3>
+                    <p class="opacity-90">Our sales team will contact you to discuss your specific needs in detail</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="bg-white bg-opacity-10 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-xl font-bold">3</div>
+                    <h3 class="text-xl font-bold mb-2">Quotation & Samples</h3>
+                    <p class="opacity-90">Receive detailed product information, pricing, and sample options</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="bg-white bg-opacity-10 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-xl font-bold">4</div>
+                    <h3 class="text-xl font-bold mb-2">Order Placement</h3>
+                    <p class="opacity-90">Place your order with confidence and enjoy seamless delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+                <div class="w-20 h-1 bg-primary-500 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Find answers to common questions about working with V5 Medical LTD</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full text-left p-5 flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-gray-800">What is your minimum order quantity (MOQ)?</span>
+                        <i class="fas fa-plus text-primary-600"></i>
+                    </button>
+                    <div class="faq-answer hidden p-5 pt-0 text-gray-600">
+                        <p>Our MOQ varies by product category. For most standard medical consumables, the MOQ is 10,000-50,000 pieces per item. For customized products, MOQs may be higher depending on specifications. We're flexible for trial orders and can discuss options that work for your business needs.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full text-left p-5 flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-gray-800">Do you provide product samples before bulk ordering?</span>
+                        <i class="fas fa-plus text-primary-600"></i>
+                    </button>
+                    <div class="faq-answer hidden p-5 pt-0 text-gray-600">
+                        <p>Yes, we offer product samples for quality evaluation before placing bulk orders. Sample fees may apply depending on the product type and quantity requested. Shipping costs for samples are typically paid by the customer. Contact our sales team to request specific samples for your evaluation.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full text-left p-5 flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-gray-800">What are your payment terms?</span>
+                        <i class="fas fa-plus text-primary-600"></i>
+                    </button>
+                    <div class="faq-answer hidden p-5 pt-0 text-gray-600">
+                        <p>We accept various payment methods including T/T (bank transfer), L/C (letter of credit), and PayPal for smaller orders. Standard payment terms are 30% deposit with order confirmation and 70% balance before shipment. For established partners, we can discuss more favorable payment terms based on order volume and history.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full text-left p-5 flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-gray-800">What is your typical lead time for orders?</span>
+                        <i class="fas fa-plus text-primary-600"></i>
+                    </button>
+                    <div class="faq-answer hidden p-5 pt-0 text-gray-600">
+                        <p>Lead times depend on product type, order quantity, and customization requirements. Standard lead time is 30-45 days after order confirmation and receipt of deposit payment. For urgent orders, we offer expedited production options for an additional fee. Our sales team will provide specific lead times based on your exact requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-white font-bold text-xl mb-4">V5 Medical LTD</div>
+                    <p class="mb-4">Professional supplier of high-quality medical and dental consumables with global distribution network.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-500 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-500 hover:text-white transition"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-500 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-500 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-white font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+                        <li><a href="catalog.html" class="hover:text-white transition">Products</a></li>
+                        <li><a href="about.html" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+                        <li><a href="https://files.v5md.com/catalog.pdf" target="_blank" class="hover:text-white transition">Catalog</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-white font-bold mb-4">Contact Info</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-primary-400"></i>
+                            <span>No. 168, Luying Road, Kunshan Development Zone, Jiangsu, China</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3 text-primary-400"></i>
+                            <span>+86-512 8781 1988</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-primary-400"></i>
+                            <span>sales@v5md.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-3 text-green-500"></i>
+                            <span>+44 78 9504 7944</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-white font-bold mb-4">Newsletter</h3>
+                    <p class="mb-4">Subscribe to our newsletter for the latest product updates and industry news.</p>
+                    <form class="flex flex-col space-y-3">
+                        <input type="email" placeholder="Your email address" class="px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500">
+                        <button type="submit" class="bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
+                <p>&copy; 2023 V5 Medical LTD. All Rights Reserved.</p>
+                <p class="mt-2 text-sm">SUZHOU V5 MEDICAL TECHNOLOGY CO., LTD. | ISO 13485 | CE Certified</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        // FAQ accordion functionality
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                if (answer.classList.contains('hidden')) {
+                    answer.classList.remove('hidden');
+                    icon.classList.remove('fa-plus');
+                    icon.classList.add('fa-minus');
+                } else {
+                    answer.classList.add('hidden');
+                    icon.classList.remove('fa-minus');
+                    icon.classList.add('fa-plus');
+                }
+            });
+        });
+        
+        // Contact form submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // In a real implementation, this would send the form data to a server
+            // For this demo, we'll just show a success message
+            
+            this.style.display = 'none';
+            document.getElementById('form-success').classList.remove('hidden');
+            
+            // Reset form after 5 seconds
+            setTimeout(() => {
+                this.reset();
+                this.style.display = 'block';
+                document.getElementById('form-success').classList.add('hidden');
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
