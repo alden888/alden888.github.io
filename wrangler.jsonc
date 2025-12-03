@@ -1,0 +1,9 @@
+{
+  "name": "v5-medical",
+  "compatibility_date": "2025-12-03",
+  "assets": {
+    "directory": "./",
+    "include": ["**/*"],
+    "exclude": ["node_modules/**/*", "wrangler.jsonc", "wrangler.toml", ".git/**/*"]
+  }
+}
