@@ -1,6 +1,9 @@
 {
-  "name": "v5-test",
-  "main": "src/index.ts",
+  "name": "v5-medical",
   "compatibility_date": "2025-12-08",
-  "compatibility_flags": ["nodejs_compat"]
+  "assets": {
+    "directory": "./",
+    "include": ["**/*"],
+    "exclude": ["node_modules/**/*", "wrangler.jsonc", ".git/**/*", ".github/**/*"]
+  }
 }
