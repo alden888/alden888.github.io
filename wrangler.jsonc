@@ -1,11 +1,6 @@
 {
   "name": "v5-test",
   "main": "src/index.ts",
-  "compatibility_date": "2025-12-08"
-}
-  "assets": {
-    "directory": "./",
-    "include": ["**/*"],
-    "exclude": ["node_modules/**/*", "wrangler.jsonc", "wrangler.toml", ".git/**/*"]
-  }
+  "compatibility_date": "2025-12-08",
+  "compatibility_flags": ["nodejs_compat"]
 }
